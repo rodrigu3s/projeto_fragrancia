@@ -6,17 +6,18 @@
 }
 
 body{
-    padding: 0 25px;
+    padding: 0 50px;
 }
 
 
-nav, ul{
+nav, ul, li{
     list-style: none;
     
 }
 
 a{
     text-decoration: none;
+    color: #fff;
 }
 
 header{
@@ -24,7 +25,8 @@ header{
     display: flex;
     align-items: flex-start;
     justify-content:space-between;
-    padding: 20px 50px;
+    padding: 30px 0;
+
 }
 
 header img{
@@ -45,11 +47,7 @@ header h4{
     font-size: 25px;
     margin-left: 20px;
 }
- header h5{
-    color: #D73A1E;
-    font-size: 25px;
- }
-
+ 
  .frete h3{
     color: #D73A1E;
     font-family: 'Gabriola';
@@ -80,13 +78,18 @@ header form {
      
  }
 
- @media (max-width:1120px){
+ @media (max-width:1175px){
     header form{ 
         display: none;
         }
+    .loja{
+         align-items: center;
+         flex-direction: column;
+         white-space: nowrap;
+        }    
     }
 
-@media (max-width:768px){
+@media (max-width:795px){
   header .frete h3{
         display: none;
     }
@@ -98,5 +101,94 @@ header form {
         flex-direction: column;
         white-space: nowrap;
 
+    }
+}
+
+.menu{
+    font-family: 'Gabriola', sans-serif;
+    font-size: 20px;
+    background-color: #523468;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+
+}
+
+.menu nav{
+    display: flex;
+}
+
+.menu nav li a{
+    display: block;
+    padding: 12px;
+}
+
+.menu nav li a:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #422A53;
+    
+}
+
+.login{
+    justify-content: center;
+    align-items: center;
+}
+
+.char{
+    margin-left: 8px;
+    font-size: 12px;
+    
+}
+
+.btn{
+    display: none;
+    color: #fff;
+    border: solid 1px;
+}
+
+.search{
+    display:none;
+}
+
+@media(max-width: 1175px){
+    .btn{
+        display: inline;
+
+    }
+
+    nav .list{
+        display: none;
+    }
+
+    .search{
+        display: inline;  
+        position: relative;
+        border: none;      
+    }
+
+    .search input[type=text]{
+        padding-left: 40px;
+        border-radius: 20px;
+        border: none;
+        width: 250px;
+        height: 35px;
+        
+    }
+
+    .search i{
+        top: 8px;
+        position: absolute;
+        padding-left: 15px;
+        color: #D73A1E;
+        
+    }
+}
+
+@media(max-width: 700px){
+    .search{
+        display: none;
     }
 }
