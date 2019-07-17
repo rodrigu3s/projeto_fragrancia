@@ -9,10 +9,48 @@
     <meta name="author" content="João Rodrigues and Johnatan Carlos">
     <title>Merlin's Potions</title>
     <script src="https://kit.fontawesome.com/16f7fde9d9.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   
     <link rel="stylesheet" href="_css/styles.css">
-    <title>Document</title>
+
 </head>
 <body>
+    <header>
+    
+    <div class="menu" id=>
+        <a class="btn" href="#"><i class="fas fa-bars"></i></a>
+
+        <form class="pesquisar">
+            <input type="text" placeholder="Search our stock">
+            <i class="fas fa-search"></i>
+        </form>
+        
+        <nav class="nav">
+            <li class="list"><a href="#">Potions<span>▼</span></a></li>
+            <li class="list"><a href="#">Ingredients<span>▼</span></a></li>
+            <li class="list"><a href="#">Books<span>▼</span></a></li>
+            <li class="list"><a href="#">Supplies<span>▼</span></a></li>
+            <li class="list"><a href="#">Charms<span>▼</span></a></li>
+            <li class="list"><a href="#">Clearance!</a></li> 
+        </nav>
+        <nav class="login">
+            <li><a href="#">Sign In</a></li>
+            <li style="color: #fff">or</li>
+            <li><a href="#">Sign Up</a></li>
+        </nav>
+    </header>    
+    </div>
+    
+
+    <!-- JQUERY --> 
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        $(".btn-menu").click(function(){
+        $(".menu").show();
+        });
+        $(".btn-close").click(function(){
+        $(".menu").hide();
+        });
+    </script>
     
 </body>
 </html>
