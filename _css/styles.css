@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding:0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0 25px;
+}
+
+
+nav, ul{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+    padding: 20px 50px;
+}
+
+header img{
+    width: 300px;
+}
+
+.loja{
+    display: flex;
+}
+
+header .loja i {
+    font-size: 30px;
+    color: #533568;
+}
+
+header h4{
+    color: rgba(82, 52, 104, 0.5);
+    font-size: 25px;
+    margin-left: 20px;
+}
+ header h5{
+    color: #D73A1E;
+    font-size: 25px;
+ }
+
+ .frete h3{
+    color: #D73A1E;
+    font-family: 'Gabriola';
+    font-size: 30px;
+    text-align: justify;
+    line-height: 25px;
+    
+}
+
+header form {
+    position: relative;
+    border: none;
+ }
+ 
+ header input[type=text]{
+     padding-left: 40px;
+     border-radius: 20px;
+     border:solid 2px rgb(114, 114, 114);
+     width: 350px;
+     height: 55px;
+ }
+
+ header form i{
+     position: absolute;
+     top: 18px;
+     padding-left: 15px;
+     color: #D73A1E;
+     
+ }
+
+ @media (max-width:1120px){
+    header form{ 
+        display: none;
+        }
+    }
+
+@media (max-width:768px){
+  header .frete h3{
+        display: none;
+    }
+}
+
+@media (max-width:568px){
+    .loja{
+        align-items: center;
+        flex-direction: column;
+        white-space: nowrap;
+
+    }
+}
