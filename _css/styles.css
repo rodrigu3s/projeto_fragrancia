@@ -202,7 +202,8 @@ header form {
 .produtos h3{
     padding: 50px;
 }
-.cards{ /*Flex*/
+
+ .cards{ 
     padding: 0 70px;
     display: flex;
     flex-wrap: wrap;
@@ -213,31 +214,34 @@ header form {
 
 .cards > div{
     flex:1 1 300px;
-    margin: 30px;
+    margin: 10px;
+    margin-bottom: 100px;
 
 }
 
-.card{
+.prod{
     text-align: center;
     
 }
+.prod p{
+    font-weight: bold;
+}
 
-.card{
+.prod img{
     width: 280px;
     height: 280px;
 
 
 }
-.card img{
-    width: 280px;
-    height: 280px;
 
-
-}
-
-.card h5{
+.prod p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
+}
 
+@media(max-width: 1220px){
+    .cards{
+        padding: 0;
+    }
 
 }
