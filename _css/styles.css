@@ -245,3 +245,78 @@ header form {
     }
 
 }
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    background-color: #E6E6E6;
+    padding:60px 50px;  
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.esquerda-final{
+    width: 40%; 
+}
+
+.info-final{
+    display: flex;
+    color: #D73A1E;
+    font-size: 24px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.info-final li{
+   padding:0 30px 0 0 ;
+   line-height: 25px;
+}
+
+.redes-sociais{
+    display: flex;
+}
+
+.redes-sociais li{
+    color: #422A53;
+    font-size: 30px;
+    padding: 50px 45px 0 0
+}
+
+/*  NEWSLETTER*/
+
+.newsletter{
+    width: 50%;
+    background-color: #fff;
+    padding: 40px 80px;
+    border-radius: 8px;
+}
+
+.newsletter p{
+    font-size: 20px;
+}
+
+.newsletter input{
+    border-radius: 8px;
+     border:solid 2px rgb(114, 114, 114);
+     width: 300px;
+     height: 45px;
+}
+
+
+.newsletter input[type=text]{
+   padding-left: 20px;
+}
+
+.newsletter button{
+    background-color:#D73A1E;
+    color:#fff;
+    width: 120px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 5px;
+}
+
+/*COPYRIGHT*/
+
