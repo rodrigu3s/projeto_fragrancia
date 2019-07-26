@@ -199,45 +199,40 @@ header form {
 }
 
 /* PRODUTOS */
-.produtos h3{
-    padding: 50px;
+.produtos{
+    display: flex;
+    flex-direction: column;
+
 }
 
- .cards{ 
-    padding: 0 70px;
+.produtos h3{
+    padding: 40px;
+
+}
+.cards{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    max-width: 1440px;
+    justify-content: center;
+    max-width: 1400px;
     margin: 0 auto;
     
 }
 
-.cards > div{
-    flex:1 1 300px;
-    margin: 10px;
-    margin-bottom: 100px;
-
-}
-
 .prod{
+    margin: 40px;
     text-align: center;
-    
-}
-.prod p{
-    font-weight: bold;
+    border: solid 2px red;
 }
 
 .prod img{
-    width: 280px;
-    height: 280px;
-
+    height: 320px;
+    width: 320px;
+    border: solid 1px goldenrod
 
 }
 
-.prod p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
-}
+
 
 @media(max-width: 1220px){
     .cards{
