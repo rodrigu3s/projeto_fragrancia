@@ -252,51 +252,60 @@ footer{
     display: flex;
     background-color: #E6E6E6;
     padding:60px 50px;  
-    justify-content:space-between;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.esquerda-final{
-    width: 40%; 
+.inicio{
+    width: 500px;
+    height: 100px;
+    border: solid 2px black;
 }
 
 .info-final{
     display: flex;
-    color: #D73A1E;
     font-size: 24px;
     overflow: hidden;
     flex-wrap: wrap;
 }
 
-.info-final li{
+.info-final li {
    padding:0 30px 0 0 ;
    line-height: 25px;
+}
+.info-final li a{
+    text-decoration: none;
+    color: #D73A1E;
 }
 
 .redes-sociais{
     display: flex;
+    border: solid 2px red;
 }
 
-.redes-sociais li{
-    color: #422A53;
+.redes-sociais li {
     font-size: 30px;
     padding: 50px 45px 0 0
 }
 
+.redes-sociais li a{
+    color: #422A53;
+}
+
 /*  NEWSLETTER*/
 
-.newsletter{
-    width: 50%;
+.meio{
     background-color: #fff;
     padding: 40px 80px;
     border-radius: 8px;
+    border: solid 2px greenyellow;
 }
 
-.newsletter p{
+.meio p{
     font-size: 20px;
 }
 
-.newsletter input{
+.meio input{
     border-radius: 8px;
      border:solid 2px rgb(114, 114, 114);
      width: 300px;
@@ -304,11 +313,11 @@ footer{
 }
 
 
-.newsletter input[type=text]{
+.meio input[type=text]{
    padding-left: 20px;
 }
 
-.newsletter button{
+.meio button{
     background-color:#D73A1E;
     color:#fff;
     width: 120px;
@@ -318,5 +327,63 @@ footer{
     margin-left: 5px;
 }
 
-/*COPYRIGHT*/
+.meio p {
+    text-align: justify;
+}
+
+.final{
+    border: solid 2px blue;
+}
+
+@media(max-width:1347px){
+footer{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.inicio{
+    display: none;
+}
+.meio{
+    white-space: nowrap;
+}
+
+.redes-sociais{
+    justify-content: center;
+    order:2 ;
+}
+.meio{
+    order:1;
+}
+.final{
+ order:3;
+}
+
+
+}
+
+@media(max-width:835px){
+footer{
+    flex-direction: column;
+}
+.meio p {
+    font-size: 16px;
+}
+
+.meio{
+    padding: 15px 30px;
+}
+
+.meio input{
+    width:250px;
+    height:40px;
+}
+
+.meio button{
+    width:100px;
+    height:40px;
+}
+
+}
 
