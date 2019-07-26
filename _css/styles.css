@@ -213,33 +213,34 @@ header form {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     max-width: 1400px;
     margin: 0 auto;
     
 }
 
 .prod{
-    margin: 40px;
+    margin-bottom: 40px;
     text-align: center;
-    border: solid 2px red;
+    /* border: solid 2px red; */
+    flex: 1 ;
 }
 
 .prod img{
     height: 320px;
     width: 320px;
-    border: solid 1px goldenrod
+    /* border: solid 1px goldenrod */
 
 }
 
 
 
-@media(max-width: 1220px){
+/* @media(max-width: 1220px){
     .cards{
         padding: 0;
     }
 
-}
+} */
 
 /*FOOTER*/
 
