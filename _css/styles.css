@@ -202,12 +202,26 @@ header form {
 .produtos{
     display: flex;
     flex-direction: column;
-
 }
 
 .produtos h3{
     padding: 40px;
 
+}
+
+.legenda{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.produto{
+    font-weight: bold;
+}
+
+.preco{
+    color: #D73A1E;
 }
 .cards{
     display: flex;
@@ -227,20 +241,82 @@ header form {
 }
 
 .prod img{
-    height: 320px;
-    width: 320px;
+    height: 350px;
+    width: 355px;
     /* border: solid 1px goldenrod */
 
 }
-
-
-
-/* @media(max-width: 1220px){
+@media(max-width: 1179px){
     .cards{
         padding: 0;
     }
 
-} */
+    .produtos h3{
+        padding: 35px;
+
+    }
+
+    .prod img{
+        height: 285px;
+        width: 275px;
+
+    }
+
+}
+
+@media(max-width: 960px){
+    .cards{
+        padding: 0;
+    }
+
+    .produtos h3{
+        padding: 35px;
+
+    }
+
+    .prod img{
+        height: 310px;
+        width: 300px;
+
+    }
+
+}
+
+@media(max-width: 765px){
+    .cards{
+        padding: 0;
+    }
+
+    .produtos h3{
+        padding: 15px;
+
+    }
+
+    .prod img{
+        height: 230px;
+        width: 220px;
+
+    }
+
+}
+
+@media(max-width: 565px){
+    .cards{
+        padding: 0;
+    }
+
+    .produtos h3{
+        padding: 10px;
+
+    }
+
+    .prod img{
+        height: 190px;
+        width: 180px;
+
+    }
+
+}
 
 /*FOOTER*/
 
