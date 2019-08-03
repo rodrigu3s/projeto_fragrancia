@@ -241,11 +241,20 @@ header form {
 }
 
 .prod img{
-    height: 350px;
-    width: 355px;
+    height: 285px;
+    width: 275px;
     /* border: solid 1px goldenrod */
 
 }
+
+@media(min-width: 1216px){
+    .prod{
+        margin: 40px;
+    }
+
+}
+
+
 @media(max-width: 1179px){
     .cards{
         padding: 0;
@@ -316,6 +325,10 @@ header form {
 
     }
 
+    .prod p{
+        font-size: 14px;
+    }
+
 }
 
 /*FOOTER*/
@@ -331,7 +344,7 @@ footer{
 .inicio{
     width: 500px;
     height: 100px;
-    border: solid 2px black;
+    /* border: solid 2px black; */
 }
 
 .info-final{
@@ -352,7 +365,7 @@ footer{
 
 .redes-sociais{
     display: flex;
-    border: solid 2px red;
+    /* border: solid 2px red; */
 }
 
 .redes-sociais li {
@@ -370,7 +383,7 @@ footer{
     background-color: #fff;
     padding: 40px 80px;
     border-radius: 8px;
-    border: solid 2px greenyellow;
+    /* border: solid 2px greenyellow; */
 }
 
 .meio p{
@@ -404,7 +417,7 @@ footer{
 }
 
 .final{
-    border: solid 2px blue;
+    /* border: solid 2px blue;    */
 }
 
 @media(max-width:1347px){
@@ -414,16 +427,18 @@ footer{
     justify-content: center;
 }
 
-.inicio{
+.info-final{
     display: none;
 }
 .meio{
     white-space: nowrap;
 }
-
+.inicio{
+    order: 2;
+    width: auto;
+}
 .redes-sociais{
     justify-content: center;
-    order:2 ;
 }
 .meio{
     order:1;
@@ -435,9 +450,49 @@ footer{
 
 }
 
+/* @media(max-width: 1350px){
+    footer{
+        flex-direction: column;
+    }
+    .inicio{
+        order: 2;
+    
+    }
+
+    .info-final{
+        display: none;
+    }
+    .meio p {
+        font-size: 16px;
+    }
+    
+    .meio{
+        padding: 15px 30px;
+        order: 1;
+    }
+    
+    .meio input{
+        width:250px;
+        height:40px;
+    }
+    
+    .meio button{
+        width:100px;
+        height:40px;
+    }
+    
+    .final{
+        order: 3;
+    }
+    } */
+
 @media(max-width:835px){
 footer{
     flex-direction: column;
+}
+.inicio{
+    order: 2;
+
 }
 .meio p {
     font-size: 16px;
@@ -445,6 +500,7 @@ footer{
 
 .meio{
     padding: 15px 30px;
+    order: 1;
 }
 
 .meio input{
@@ -457,5 +513,8 @@ footer{
     height:40px;
 }
 
+.final{
+    order: 3;
+}
 }
 
