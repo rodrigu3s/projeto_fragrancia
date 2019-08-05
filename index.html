@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
@@ -9,153 +10,149 @@
     <meta name="author" content="João Rodrigues and Johnatan Carlos">
     <title>Merlin's Potions</title>
     <script src="https://kit.fontawesome.com/16f7fde9d9.js"></script>
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="_css/styles.css">
 
 </head>
-<body>
 
+<body>
+    <!------------------HEADER------------------->
     <header>
         <a href="#"><img src="_img/logo.png" alt="logo"></a>
-        
-    
-    
-        
+
         <form class="pesquisar">
             <input type="text" placeholder="Search our stock">
             <i class="fas fa-search"></i>
         </form>
-        
+
         <div class="frete">
             <h3>Free shipping<br> on orders over $ 50</h3>
         </div>
-        
+
         <div class="loja">
             <i class="fas fa-shopping-bag"></i>
             <h4>BAG: <span style="color: #D73A1E;">1</span></h4>
-            
+
         </div>
     </header>
 
-        <div class="menu">
-            <a class="btn" href="#"><i class="fas fa-bars"></i></a>
-            
-            <form class="search">
-                <input type="text" placeholder="Search our stock">
-                <i class="fas fa-search"></i>
-            </form>
 
-            <nav class="nav">
-                <li class="list"><a href="#">Potions<span class="char">▼</span></a></li>
-                <li class="list"><a href="#">Ingredients<span class="char">▼</span></a></li>
-                <li class="list"><a href="#">Books<span class="char">▼</span></a></li>
-                <li class="list"><a href="#">Supplies<span class="char">▼</span></a></li>
-                <li class="list"><a href="#">Charms<span class="char">▼</span></a></li>
-                <li class="list"><a href="#">Clearance!</a></li> 
-            </nav>
-            <nav class="login">
-                <li><a href="#">Sign In</a></li>
-                <li style="color: rgba(255, 255, 255, 0.685); padding:0 15px;" >or</li>
-                <li><a href="#">Sign Up</a></li>
-            </nav>
+
+    <!--------------MENU---------------->
+    <div class="menu">
+        <a class="btn" href="#"><i class="fas fa-bars"></i></a>
+
+        <form class="search">
+            <input type="text" placeholder="Search our stock">
+            <i class="fas fa-search"></i>
+        </form>
+
+        <nav class="nav">
+            <li class="list"><a href="#">Potions<span class="char">▼</span></a></li>
+            <li class="list"><a href="#">Ingredients<span class="char">▼</span></a></li>
+            <li class="list"><a href="#">Books<span class="char">▼</span></a></li>
+            <li class="list"><a href="#">Supplies<span class="char">▼</span></a></li>
+            <li class="list"><a href="#">Charms<span class="char">▼</span></a></li>
+            <li class="list"><a href="#">Clearance!</a></li>
+        </nav>
+        <nav class="login">
+            <li><a href="#">Sign In</a></li>
+            <li style="color: rgba(255, 255, 255, 0.685); padding:0 15px;">or</li>
+            <li><a href="#">Sign Up</a></li>
+        </nav>
+    </div>
+
+
+    <!----------------CARDS---------------->
+    <section class="produtos">
+        <h3>Potions</h3>
+        <div class="cards">
+            <div class="prod">
+                <img src="_img/aging-potion.png" alt="foto1">
+                <div class="legenda">
+                    <p class="produto">Aging Potion - </p>
+                    <p class="preco">$29.99</p>
+                </div>
+            </div>
+            <div class="prod">
+                <img src="_img/bulgeye-potion.png" alt="foto1">
+                <div class="legenda">
+                    <p class="produto">Bulgeye potion - </p>
+                    <p class="preco">$19.99</p>
+                </div>
+
+            </div>
+            <div class="prod">
+                <img src="_img/dragon-tonic.png" alt="foto1">
+                <div class="legenda">
+                    <p class="produto">Dragon tonic - </p>
+                    <p class="preco">$64.99</p>
+                </div>
+            </div>
+            <div class="prod">
+                <img src="_img/love-potion.png" alt="foto1">
+                <div class="legenda">
+                    <p class="produto">Love potion - </p>
+                    <p class="preco">$29.99</p>
+                </div>
+            </div>
+            <div class="prod">
+                <img src="_img/polyjuice-potion.png" alt="foto1">
+                <div class="legenda">
+                    <p class="produto">Polyjuice potion - </p>
+                    <p class="preco">$99.99</p>
+                </div>
+            </div>
+            <div class="prod">
+                <img src="_img/sleeping-draught.png" alt="foto1">
+                <div class="legenda">
+                    <p class="produto">Sleeping draught - </p>
+                    <p class="preco">$14.99</p>
+                </div>
+            </div>
+
         </div>
-        <section class="produtos">
-            <h3>Potions</h3>
-            <div class="cards">
-                <div class="prod">
-                    <img src="_img/aging-potion.png" alt="foto1">
-                    <div class="legenda">
-                        <p class="produto">Aging Potion - </p>
-                        <p class="preco">$29.99</p>            
-                    </div>
-                </div>
-                <div class="prod">
-                    <img src="_img/bulgeye-potion.png" alt="foto1">
-                    <div class="legenda">
-                        <p class="produto">Bulgeye potion - </p>
-                        <p class="preco">$19.99</p>            
-                    </div>
-                
-                </div>
-                <div class="prod">
-                    <img src="_img/dragon-tonic.png" alt="foto1">
-                    <div class="legenda">
-                        <p class="produto">Dragon tonic - </p>
-                        <p class="preco">$64.99</p>            
-                    </div>
-                </div>
-                <div class="prod">
-                    <img src="_img/love-potion.png" alt="foto1">
-                    <div class="legenda">
-                        <p class="produto">Love potion - </p>
-                        <p class="preco">$29.99</p>            
-                    </div>
-                </div>
-                <div class="prod">
-                    <img src="_img/polyjuice-potion.png" alt="foto1">
-                    <div class="legenda">
-                        <p class="produto">Polyjuice potion - </p>
-                        <p class="preco">$99.99</p>            
-                    </div>              
-                </div>
-                <div class="prod">
-                    <img src="_img/sleeping-draught.png" alt="foto1">
-                    <div class="legenda">
-                        <p class="produto">Sleeping draught - </p>
-                        <p class="preco">$14.99</p>            
-                    </div>
-                </div>
+    </section>
 
+    <!---------------FOOTER---------------->
+    <footer>
+        <div class="inicio">
+
+            <div class="info-final">
+                <li><a href="#">COMPANY</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#">SHIPING</a></li>
+                <li><a href="#">RETURNS</a></li>
+                <li><a href="#">CAREERS</a></li>
             </div>
-            
-
-        </section>
-
-        <!--------FOOTER------->
-        <footer>
-            <div class="inicio">
-               
-                <div class="info-final">
-                    <li><a href="#">COMPANY</a></li>
-                    <li><a href="#">CONTACT US</a></li>
-                    <li><a href="#">SHIPING</a></li>
-                    <li><a href="#">RETURNS</a></li>
-                    <li><a href="#">CAREERS</a></li>
-                </div> 
-                <div class="redes-sociais">
-                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                         <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-                        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fab fa-tumblr-square"></i></a></li>
-                        <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
-                </div>
-        
-            </div>
-            
-            <div class="meio">
-                <p>Sign up for our Newsletter</p>
-                <p>Sign up for our newsletter & get exclusive discounts!</p>
-                <input type="text"  placeholder="Enter your email">
-                <button>SUBMIT</button>
-            </div>
-            
-
-
-
-
-
-
-
-            <div class="final">
-                <p>&copy; 2015 Merlin's Potions All Rights Reserved</p>
+            <div class="redes-sociais">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                <li><a href="#"><i class="fab fa-tumblr-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
             </div>
 
-        </footer>
-    
-    
+        </div>
 
-    <!-- JQUERY --> 
+        <div class="meio">
+            <p>Sign up for our Newsletter</p>
+            <p>Sign up for our newsletter & get exclusive discounts!</p>
+            <input type="text" placeholder="Enter your email">
+            <button>SUBMIT</button>
+        </div> 
+
+        <div class="final">
+            <p>&copy; 2015 Merlin's Potions All Rights Reserved</p>
+        </div>
+
+    </footer>
+
+
+
+    <!-- JQUERY -->
     <!-- <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>
         $(".btn-menu").click(function(){
@@ -165,6 +162,7 @@
         $(".menu").hide();
         });
     </script> -->
-    
+
 </body>
+
 </html>
