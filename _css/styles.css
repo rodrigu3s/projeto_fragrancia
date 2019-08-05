@@ -279,7 +279,7 @@ header form {
     }
 
     .produtos h3{
-        padding: 35px;
+        padding: 30px;
 
     }
 
@@ -344,7 +344,7 @@ footer{
 .inicio{
     width: 500px;
     height: 100px;
-    /* border: solid 2px black; */
+    border: solid 2px black;
 }
 
 .info-final{
@@ -365,7 +365,7 @@ footer{
 
 .redes-sociais{
     display: flex;
-    /* border: solid 2px red; */
+    border: solid 2px red;
 }
 
 .redes-sociais li {
@@ -383,7 +383,7 @@ footer{
     background-color: #fff;
     padding: 40px 80px;
     border-radius: 8px;
-    /* border: solid 2px greenyellow; */
+    border: solid 2px greenyellow;
 }
 
 .meio p{
@@ -417,7 +417,7 @@ footer{
 }
 
 .final{
-    /* border: solid 2px blue;    */
+    border: solid 2px blue;   
 }
 
 @media(max-width:1347px){
