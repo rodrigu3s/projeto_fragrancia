@@ -265,27 +265,10 @@ header form i {
     }
 }
 
-<<<<<<< HEAD
-@media(max-width: 960px){
-    .cards{
-        padding: 0;
-    }
-
-    .produtos h3{
-        padding: 30px;
-
-    }
-
-    .prod img{
-        height: 310px;
-        width: 300px;
-
-=======
 @media(max-width:796px) {
     .prod img {
         height: 200px;
         width: 200px;
->>>>>>> 99f0ad7f9e78dad4ba6ca907fb2b24e53845ca20
     }
 }
 
@@ -325,7 +308,7 @@ footer {
 .inicio {
     width: 500px;
     height: 100px;
-    border: solid 2px black;
+    /* border: solid 2px black; */
 }
 
 .info-final {
@@ -347,7 +330,7 @@ footer {
 
 .redes-sociais {
     display: flex;
-    border: solid 2px red;
+    /* border: solid 2px red; */
 }
 
 .redes-sociais li {
@@ -363,7 +346,7 @@ footer {
     background-color: #fff;
     padding: 40px 80px;
     border-radius: 8px;
-    border: solid 2px greenyellow;
+    /* border: solid 2px greenyellow; */
 }
 
 .meio p {
@@ -396,13 +379,8 @@ footer {
     text-align: justify;
 }
 
-<<<<<<< HEAD
-.final{
-    border: solid 2px blue;   
-=======
 .final {
     /* border: solid 2px blue;    */
->>>>>>> 99f0ad7f9e78dad4ba6ca907fb2b24e53845ca20
 }
 
 @media(max-width:1347px) {
